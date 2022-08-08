@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"log"
 	"net"
-
-	protos "github.com/truesch/grpc_getting_started/protos/translation"
-	"github.com/truesch/grpc_getting_started/server"
+	protos "rpcLab/protos/translation"
+	"rpcLab/server"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

@@ -6,8 +6,9 @@ import (
 	"os"
 	"unicode/utf8"
 
+	protos "rpcLab/protos/translation"
+
 	"github.com/getsentry/sentry-go"
-	protos "github.com/truesch/grpc_getting_started/protos/translation"
 	"github.com/truesch/grpc_getting_started/vendors"
 )
 
